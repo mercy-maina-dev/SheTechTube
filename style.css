@@ -181,3 +181,34 @@ nav {
     width: 50%;
     margin-bottom: 25px;
 }
+
+.layout {
+    display: flex;                       
+    padding-left: 5px;   
+
+}
+
+
+.sidebar {
+    width: 103px;         
+    flex-shrink: 0;        
+}
+
+.main {
+    flex: 1;                
+}
+
+
+.main .banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;    
+}
+
+.main .banner img {
+    width: 100%;
+    max-width: 1400px;       
+    border-radius: 8px;
+    height: 230px;
+    object-fit: cover;
+}
