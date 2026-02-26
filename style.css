@@ -141,8 +141,43 @@ nav {
     }
 }
 
-/* Make sidebar icons smaller */
+
 .sidebar .shortcut-links a img {
-    width: 70px;   /* smaller size */
+    width: 70px;   
     height: 70px;
+}
+.subscribed-list h3{
+    font-size: 18px;
+    margin: 20px 0;
+    color: #5a5a5a;
+    font-weight: bolder;
+
+
+
+}
+.subscribed-list a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.subscribed-list a img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 33px;
+}
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar a p{
+    display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
 }
