@@ -212,3 +212,49 @@ nav {
     height: 230px;
     object-fit: cover;
 }
+/* Video Grid */
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Single Video Card */
+.vid-list {
+    width: 100%;
+}
+
+/* Thumbnail */
+.thumbnail {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Video Info Layout */
+.flex-div {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Channel Icon */
+.channel-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Video Text */
+.vid-info {
+    font-size: 13px;
+    color: #555;
+}
+
+.video-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
